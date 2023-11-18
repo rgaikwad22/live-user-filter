@@ -1,0 +1,177 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Live User Filter</title>
+
+  <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
+  <meta name="description" lang="en" content="">
+
+  <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
+  <meta name="keywords" lang="en" content="">
+
+  <!-- View-port Basics: http://mzl.la/VYREaP -->
+  <!-- This meta tag is used for mobile device to display the page without any zooming,
+        so how much the device is able to fit on the screen is what's shown initially. 
+        Remove comments from this tag, when you want to apply media queries to the website. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- To adhear no-cache for Chrome -->
+  <!-- <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-store, no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+  <!--container starts here-->
+  <div class="container">
+    <!--main starts here-->
+    <main>
+      <section class="user-filter-section">
+        <div class="wrapper">
+          <div class="user-filter-container">
+            <div class="user-filter-top">
+              <h1 class="section-heading">Live User Filter</h1>
+              <span class="sub-heading">Search by name and/or location</span>
+              <form action="#FIXME">
+                <div class="input-grp">
+                  <input type="text" placeholder="Search" name="search">
+                </div>
+              </form>
+            </div>
+            <div class="user-filter-bottom">
+              <ul class="user-list">
+                <li data-name="walter menge">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-photo/positive-hipster-with-dark-stubble-has-gentle-sincere-smile-looks-with-eyes-full-happiness_273609-16796.jpg?w=740&t=st=1693289793~exp=1693290393~hmac=e17486b0f752b5c826842d8e683027b48ca264e66d330aed262430be420f822d"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Walter Menge</h2>
+                    <span class="location">Puchheim, Germany</span>
+                  </div>
+                </li>
+                <li data-name="ola hasan">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-photo/close-up-view-smiling-young-handsome-man-wearing-glasses-looking-front-isolated-green-wall_141793-85654.jpg?w=740&t=st=1693290048~exp=1693290648~hmac=08e9cd49d3baf1c07349f07940985fb2d752d1ec605e7007f838823680f4aa85"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Ola Hasan</h2>
+                    <span class="location">Hoelsand, Norway</span>
+                  </div>
+                </li>
+                <li data-name="aurore richard">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-vector/hand-drawn-caricature-illustration_23-2149818159.jpg?w=740&t=st=1693290096~exp=1693290696~hmac=e0247f6cda5512118b655a05a8d730d55623e83ca0b6d208f1897c74b83401ca"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Aurore Richard</h2>
+                    <span class="location">Aulnay-sous-Bols, France</span>
+                  </div>
+                </li>
+                <li data-name="kirsten kopf">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://as1.ftcdn.net/v2/jpg/06/11/00/20/1000_F_611002015_cydHhJRmA3O8ewV913Y8WXttKEzLkVPW.jpg"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Kirsten Kopf</h2>
+                    <span class="location">Ruthen, Germany</span>
+                  </div>
+                </li>
+                <li data-name="ugne holt">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://as1.ftcdn.net/v2/jpg/05/24/27/78/1000_F_524277815_NJJWb6Ss7BB9ciW7ZQwwkgAc8mwhi1sn.jpg"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Ugne Holt</h2>
+                    <span class="location">Rize, Turkey</span>
+                  </div>
+                </li>
+                <li data-name="necati oztonga">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-man-sticking-out-tongue_23-2150171215.jpg?w=740&t=st=1693290339~exp=1693290939~hmac=93f76e065d2525d9f498d8c536d587cd7b6cbdee1fd973fcf5cd659102332f48"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Necati Oztonga</h2>
+                    <span class="location">Rijperkeck, Netherlands</span>
+                  </div>
+                </li>
+                <li data-name="rahul snoei">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-photo/portrait-friendly-looking-happy-attractive-male-model-with-moustache-beard-wearing-trendy-transparent-glasses-smiling-broadly-while-listening-interesting-story-waiting-mom-give-meal_176420-22400.jpg?w=740&t=st=1693290389~exp=1693290989~hmac=50f1c394be412dec7616608e8333e90566a9e5e8cfe8c16cfee9b4747f05a962"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Rahul Snoei</h2>
+                    <span class="location">Arandelovac, Serbia</span>
+                  </div>
+                </li>
+                <li data-name="brajan vuksanovic">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://img.freepik.com/free-photo/april-fools-day-guy-clown-screaming-blue-hair-pink-big-sunglasses-funny-yelling_140725-161086.jpg?w=740&t=st=1693290435~exp=1693291035~hmac=6beb9e90d471c08fa9710430b459ebc011b102d383cb52c66e63fd099ceb2c96"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Brajan Vuksanovic</h2>
+                    <span class="location">Rovaniemia, Finland</span>
+                  </div>
+                </li>
+                <li data-name="peppi savela">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://as1.ftcdn.net/v2/jpg/06/14/34/58/1000_F_614345829_d6KUQFsGGp3OckopnrBp8c0rKJsEo795.jpg"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Peppi Savela</h2>
+                    <span class="location">Rize, Turkey</span>
+                  </div>
+                </li>
+                <li data-name="ulku berberoglu">
+                  <figure class="profile-pic">
+                    <img
+                      src="https://as2.ftcdn.net/v2/jpg/06/20/57/93/1000_F_620579389_E8vsGmsN618RLtQH8ZSbkz8MlbTesExC.webp"
+                      alt="Profile Image">
+                  </figure>
+                  <div class="profile-info">
+                    <h2 class="profile-name">Ulku Berberoglu</h2>
+                    <span class="location">Rijperkeck, Netherlands</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--main ends here-->
+  </div>
+  <!--container ends here-->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
